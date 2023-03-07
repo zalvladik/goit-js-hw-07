@@ -19,7 +19,7 @@ function createGallery(evt) {
 function stopDefAction(evt) {
     evt.preventDefault();
     if (evt.target.nodeName !== "IMG") {
-        return console.log('p')
+        return console.log('missClick')
     };
     
     var lightbox = new SimpleLightbox('.gallery a', 
